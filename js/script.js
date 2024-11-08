@@ -20,10 +20,13 @@ btn.addEventListener('click', function (e) {
 
     } else {
 
+        console.log(cep);
+
+
         if (cep.includes('-')) {
 
         } else {
-            alerth3.textContent = 'Letras não são permitidas por favor digite um cep válido';
+            alerth3.textContent = 'Por favor digite um cep válido';
         exit(0);
         }
     }
